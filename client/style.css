@@ -1,0 +1,82 @@
+* {
+
+       font-family: "Optima" !important;
+}
+body{
+    background-color: #0056b3;
+}
+
+.rock {
+    color: transparent;
+    background: url(./slike/rock.svg);
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    background-size: 200px;
+}
+
+.paper {
+    color: transparent;
+    background: url(./slike/paper.svg);
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    background-size: 200px;
+}
+
+.scissor {
+    color: transparent;
+    background: url(./slike/scissor.svg);
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    background-size: 200px;
+}
+
+.title {
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 2;
+    color: rgb(255, 51, 51);
+        font-size: 2rem;
+        padding: 20px;
+        
+        background-color: #fff; /* Add a white background */
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    
+}
+
+.btn {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.btn-primary {
+    background-color: #007bff; /* Change the primary button color */
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Change the primary button color on hover */
+}
+
+.btn-secondary {
+    background-color: #6c757d; /* Change the secondary button color */
+    color: #fff;
+}
+
+.btn-secondary:hover {
+    background-color: #545b62; /* Change the secondary button color on hover */
+}
+
+/* Style images */
+.col-sm img {
+    width: 100%; /* Make the images responsive */
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow to images */
+}
